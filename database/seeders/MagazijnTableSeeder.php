@@ -11,7 +11,7 @@ class MagazijnTableSeeder extends Seeder
     {
         DB::table('magazijn')->insert([
             ['product_id' => 1, 'verpakkingseenheid' => 0.5, 'aantal_aanwezig' => 200, 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
-            ['product_id' => 2, 'verpakkingseenheid' => 1.0, 'aantal_aanwezig' => 150, 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
+            ['product_id' => 2, 'verpakkingseenheid' => 1.0, 'aantal_aanwezig' => 150, 'is_actief' => false, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
             ['product_id' => 3, 'verpakkingseenheid' => 0.25, 'aantal_aanwezig' => 300, 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
             ['product_id' => 4, 'verpakkingseenheid' => 1.0, 'aantal_aanwezig' => 100, 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
             ['product_id' => 5, 'verpakkingseenheid' => 0.75, 'aantal_aanwezig' => 120, 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],

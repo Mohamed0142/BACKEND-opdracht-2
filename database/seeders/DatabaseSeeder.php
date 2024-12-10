@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
             ProductPerAllergeenTableSeeder::class,
             LeverancierTableSeeder::class,
             ProductPerLeverancierTableSeeder::class,
-            MagazijnTableSeeder::class,  // Voeg deze toe
+            MagazijnTableSeeder::class,
         ]);
     }
 }

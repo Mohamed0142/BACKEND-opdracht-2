@@ -11,7 +11,7 @@ class ProductTableSeeder extends Seeder
     {
         DB::table('product')->insert([
             ['naam' => 'Mintnopjes', 'barcode' => '8719587231278', 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
-            ['naam' => 'Schoolkrijt', 'barcode' => '8719587326713', 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
+            ['naam' => 'Schoolkrijt', 'barcode' => '8719587326713', 'is_actief' => false, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
             ['naam' => 'Honingdrop', 'barcode' => '8719587327836', 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
             ['naam' => 'Zure Beren', 'barcode' => '8719587321441', 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
             ['naam' => 'Cola Flesjes', 'barcode' => '8719587321237', 'is_actief' => true, 'opmerking' => null, 'created_at' => now(), 'updated_at' => now()],
